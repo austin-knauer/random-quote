@@ -1,0 +1,122 @@
+
+    #quote-box {
+        padding: 0;
+        margin: 0;
+        color: white;
+        --border-color: white;
+        font-family: 'Architects Daughter', sans-serif;
+        font-size: 40px;
+        --text-shadow: 2px 2px 2px black;
+        text-shadow: var(--text-shadow);
+      }
+
+      @media screen and (max-width: 576px) {
+        #quote-box {
+          padding-top: 10px;
+          padding-bottom: 10px;
+          min-height: 100vh;
+          max-width: 100vw;
+          background: url(https://images.pexels.com/photos/1261728/pexels-photo-1261728.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) 0 0 / cover no-repeat;
+          display: flex;
+          flex-flow: column nowrap;
+          justify-content: space-around;
+          align-items: center;
+        }
+        #text {
+          text-align: center;
+        }    
+        #author {
+          text-align: center;
+          font-weight: bold;
+          padding-bottom: 20px;
+        }
+     
+        #new-quote {
+          color: inherit;
+          border-color: inherit;
+          text-shadow: var(--text-shadow);
+        }
+        #tweet-quote {
+          color: inherit;
+          border-color: inherit;
+        }
+      }
+
+    @media screen and (min-width: 576px) {
+      #bg-img {
+        height: 100vh; 
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        border-style: solid;
+        border-color: var(--border-color);
+        border-width: 2px;
+        transition: background 1s;
+      }
+
+      #text {
+          padding-left: 10px;
+        font-size: 40px;
+      }
+
+      #panel {
+        display: flex;
+        flex-flow: column nowrap;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+      }
+      
+      
+
+      #bg-color1 {
+        height: 66vh;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        border-style: solid;
+        border-width: 2px;
+        border-color: var(--border-color);
+      }
+      
+      #author {
+        margin: 0px 20px 10px 20px;
+        padding: 0px 20px 10px 20px;
+        width: 100%;
+        text-align: center;
+        min-width: 200px;
+      }
+      
+      #bg-color2 {
+        height: 34vh;
+      }
+      
+      #new-quote {
+        height: 50%;
+        color: inherit;
+        border-color: var(--border-color);
+        border-width: 2px;
+        border-radius: 0;
+        text-shadow: var(--text-shadow);
+      }
+      
+      #tweet-quote {
+        border-color: var(--border-color);
+        border-width: 0 2px 2px 2px;
+        border-radius: 0;
+        margin-top: 0;
+        height: 49%;
+        padding-top: 13%;
+        color: inherit;
+        
+      }
+
+    }
+    @media screen and (max-width: 1000px) and (min-width: 576px) {
+        #author {
+            transform: rotate(90deg);
+        }
+    }
+   
