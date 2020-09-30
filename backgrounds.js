@@ -59,7 +59,7 @@ const backgrounds = [
         url: "url('./cloud.jpg') 50% 50% / cover no-repeat",
         panel: '#595e5a',
         button: '#937038',
-        font: '#551011',
+        font: '#8B0000',
         border: 'black'
     }
 ];
