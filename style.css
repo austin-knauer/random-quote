@@ -52,7 +52,7 @@
         align-items: center;
         border-style: solid;
         border-color: var(--border-color);
-        border-width: 2px;
+        border-width: 4px 2px 4px 4px;
         transition: background 1s;
       }
 
