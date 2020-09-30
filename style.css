@@ -1,5 +1,6 @@
 
     #quote-box {
+        background-image: url('./woman.jpg'), url('./tents.jpg'), url('./trees.jpg'), url('./sunset.jpg'), url('./hills.jpg'), url('./forest.jpg'), url('./cliff.jpg'), url('./cloud.jpg'), url('./purple.jpg');
         background: black;
         padding: 0;
         margin: 0;
