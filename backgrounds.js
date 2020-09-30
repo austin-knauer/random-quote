@@ -60,7 +60,7 @@ const backgrounds = [
         panel: '#595e5a',
         button: '#937038',
         font: '#551011',
-        border: 'white'
+        border: 'black'
     }
 ];
 export default backgrounds;
