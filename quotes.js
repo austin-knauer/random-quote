@@ -41,7 +41,7 @@ let quotes = [
         author: '-&nbsp;Friedrich Von Schiller'
     },
     {
-        quote: '"The constant free flow of communication amount us-enabling the free interchange of ideas-forms the very bloodstream of our nation. It keeps the mind and body of our democracy eternally vital, eternally young."',
+        quote: '"The constant free flow of communication among us-enabling the free interchange of ideas-forms the very bloodstream of our nation. It keeps the mind and body of our democracy eternally vital, eternally young."',
         author: '-&nbsp;Franklin D. Roosevelt'
     },
     {
