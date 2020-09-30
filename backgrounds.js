@@ -56,7 +56,7 @@ const backgrounds = [
         border: 'white'
     },
     {
-        url: "url('./cloud.jpg') 0 0 / cover no-repeat",
+        url: "url('./cloud.jpg') 50 50 / cover no-repeat",
         panel: '#595e5a',
         button: '#937038',
         font: '#551011',
