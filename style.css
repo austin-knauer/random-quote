@@ -17,7 +17,8 @@
         font-size: 40px;
         --text-shadow: 2px 2px 2px black;
         text-shadow: var(--text-shadow);
-        z-index: 1;
+        backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
       }
 
       @media screen and (max-width: 576px) {
