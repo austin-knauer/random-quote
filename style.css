@@ -1,12 +1,4 @@
 
-    body::after{
-        position: absolute; 
-        width: 0; 
-        height: 0; 
-        overflow: hidden; 
-        z-index: -1;
-        content: url('./woman.jpg'), url('./tents.jpg'), url('./trees.jpg'), url('./sunset.jpg'), url('./hills.jpg'), url('./forest.jpg'), url('./cliff.jpg'), url('./cloud.jpg'), url('./purple.jpg');
-    }
 
     #quote-box {
         background: black;
