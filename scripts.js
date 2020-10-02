@@ -33,12 +33,12 @@ function largeClick() {
             $('#author').html(quotes[q].author);
             $('#quote-box').css({ 'color': backgrounds[b].font, '--border-color': backgrounds[b].border });
 
-            // next the background changes, need to add transition to CSS, may be necessary to pull this out and put it in a set timeout function
+            // next the background changes
             $('#bg-img').css('background', backgrounds[b].url);
             $('#bg-color1').css('background-color', backgrounds[b].panel);
             $('#bg-color2').css('background-color', backgrounds[b].button);
 
-            //finally fade in the new quote .5 seconds after the the background changes, and the new author .5 seconds after that; 1 second may be better, again may need to pull this out of the callback function
+            //finally fade in the new quote .5 seconds after the the background changes, and the new author .5 seconds after that
             setTimeout(function () {
                 $('#text').fadeIn(500, function () {
                     $('#author').fadeIn(500);
@@ -63,15 +63,15 @@ function mobileClick() {
         let b = bgNumber();
         let q = quoteNumber();
 
-        // first text fades out, after fade out it changes. May look better to have this happen at same time as background change
+        // first text fades out, after fade out it changes
         $('#text, #author').fadeOut(500, function () {
             $('#text').text(quotes[q].quote);
             $('#author').html(quotes[q].author);
 
-            // next the background changes, need to add transition to CSS, may be necessary to pull this out and put it in a set timeout function
+            // next the background changes
             $('#quote-box').css({'background': backgrounds[b].url, 'color': backgrounds[b].font, '--border-color': backgrounds[b].border});
 
-            //finally fade in the new quote .5 seconds after the the background changes, and the new author .5 seconds after that; 1 second may be better, again may need to pull this out of the callback function
+            //finally fade in the new quote .5 seconds after the the background changes, and the new author .5 seconds after that
             setTimeout(function () {
                 $('#text, #author').fadeIn(500);
             }, 500);
