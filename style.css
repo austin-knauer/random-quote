@@ -61,7 +61,7 @@
         border-style: solid;
         border-color: var(--border-color);
         border-width: 4px 2px 4px 4px;
-        transition: background 5s;
+        transition: background .5s;
       }
 
       #text {
@@ -88,7 +88,7 @@
         border-style: solid;
         border-width: 2px;
         border-color: var(--border-color);
-        transition: background-color 5s;
+        transition: background-color .5s;
       }
       
       #author {
@@ -101,7 +101,7 @@
       
       #bg-color2 {
         height: 34vh;
-        transition: background-color 5s;
+        transition: background-color .5s;
       }
       
       #new-quote {
