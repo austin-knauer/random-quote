@@ -12,6 +12,10 @@
         text-shadow: var(--text-shadow);
       }
 
+    a:focus {
+        outline: none;
+}
+
       @media screen and (max-width: 576px) {
         #quote-box {
           padding-top: 10px;
