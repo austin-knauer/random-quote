@@ -17,10 +17,6 @@
         box-shadow: none;
     }
 
-    .btn {
-        border-radius: 0;
-    }
-
       @media screen and (max-width: 576px) {
         #quote-box {
           padding-top: 10px;
@@ -109,7 +105,7 @@
         height: 50%;
         color: inherit;
         border-color: var(--border-color);
-        border-width: 2px
+        border-width: 2px;
         border-radius: 0;
         text-shadow: var(--text-shadow);
       }
@@ -119,7 +115,7 @@
         border-width: 0 2px 2px 2px;
         border-radius: 0;
         margin-top: 0;
-        height: 49%;
+        height: 50%;
         padding-top: 13%;
         color: inherit;
         
