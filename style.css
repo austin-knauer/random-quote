@@ -12,9 +12,9 @@
         text-shadow: var(--text-shadow);
       }
 
-    a:focus {
+    #tweet-quote:focus {
         outline: none;
-}
+    }
 
       @media screen and (max-width: 576px) {
         #quote-box {
