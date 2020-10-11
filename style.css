@@ -14,6 +14,7 @@
 
     .btn:focus {
         outline: none !important;
+        box-shadow: none;
     }
 
       @media screen and (max-width: 576px) {
