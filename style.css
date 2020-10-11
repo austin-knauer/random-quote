@@ -12,8 +12,8 @@
         text-shadow: var(--text-shadow);
       }
 
-    #tweet-quote:focus {
-        outline: none;
+    .btn:focus {
+        outline: none !important;
     }
 
       @media screen and (max-width: 576px) {
